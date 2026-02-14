@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="glass-card hero-card">
+            <h1>Hi, I'm <span class="gradient-text">Your Name</span></h1>
+            <p class="tagline">Web Developer | Designer | Creator</p>
+            <p class="description">I build beautiful, functional websites and applications</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="glass-card about-card">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class='bx bx-user'></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm a passionate developer who loves creating amazing digital experiences. With expertise in modern web technologies, I bring ideas to life.</p>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="glass-card project-card">
+                <div class="project-image">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+                <h3>Project One</h3>
+                <p>A modern web application built with React and Node.js</p>
+                <div class="project-links">
+                    <a href="#" class="btn btn-small">Live Demo</a>
+                    <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <div class="project-image">
+                    <i class='bx bx-mobile-alt'></i>
+                </div>
+                <h3>Project Two</h3>
+                <p>Mobile-first responsive design showcase</p>
+                <div class="project-links">
+                    <a href="#" class="btn btn-small">Live Demo</a>
+                    <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <div class="project-image">
+                    <i class='bx bx-palette'></i>
+                </div>
+                <h3>Project Three</h3>
+                <p>Creative design portfolio website</p>
+                <div class="project-links">
+                    <a href="#" class="btn btn-small">Live Demo</a>
+                    <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="glass-card contact-card">
+            <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
